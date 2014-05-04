@@ -45,6 +45,7 @@ static char            *rirs[256];
 
 void *                  esServer = 0;
 
+
 patricia_tree_t        *ipTree = 0;
 
 extern char            *moloch_char_to_hex;

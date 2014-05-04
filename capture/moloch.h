@@ -221,6 +221,8 @@ typedef struct moloch_config {
 
     char     *nodeClass;
     char     *elasticsearch;
+    char     *redisHost;
+    int      *redisPort;
     char     *interface;
     int       pcapDirPos;
     char    **pcapDir;
